@@ -1,3 +1,4 @@
+@import url("./form.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
 	box-sizing: border-box;
@@ -96,7 +97,7 @@ span.bold-place {
 	margin-right: 5px;
 }
 
-input[type="text"] {
+input[type="text"] ,#city{
 	border: 0;
 	font-family: inherit;
 	font-size: 16px;
